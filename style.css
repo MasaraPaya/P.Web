@@ -1,0 +1,115 @@
+:root{
+    --pm: #324851;
+    --bg: #34675C;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif ;
+    background-color: var(--bg);
+    color: #fff;
+}
+
+/* NavBar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 7% ;
+    background-color: rgb(125, 163, 161, 0.8);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 9999;
+}
+
+.navbar .nav-logo{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.navbar .nav-logo span{
+color: var(--pm);
+}
+
+.navbar .nav a{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 13px;
+    margin: 8px;
+}
+
+.navbar .navbar-z a{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 8px;
+}
+
+.navbar .nav a:hover{
+    color: var(--pm)
+}
+
+/* Main */
+.Main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('Blabla.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Main .content{
+    padding: 25px 7%;
+    max-width: 1000px;
+}
+
+.Main .content h1 {
+    color: white;
+    font-size: 2em;
+}
+
+.Main .content h1 span{
+    color: var(--pm);
+}
+
+.Main .content p{
+    color:#ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 180;
+}
+
+.Main .content a{
+    color: white;
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 15px;
+    margin-top: 5px;
+    background-color: var(--bg);
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px   rgba(0, 0, 0, 0.8);
+}
+
+/* Footer */
+footer{
+    background-color: var(--pm);
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer .socials a{
+    color: #fff;
+}
